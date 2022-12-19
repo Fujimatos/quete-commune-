@@ -1,0 +1,157 @@
+body{
+}
+@media only screen and (max-width: 320px) {
+    body {
+      display: none;
+    }
+  }
+
+@media only screen and (width=414px) and (height=896px) { 
+    body section div { background-color: red; color: red; border-color: red; }    
+}
+  
+section div{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color:white;
+}    
+
+section div{
+    box-sizing: content-box 320px;
+}
+
+section div{
+    margin: 5px;
+    border: solid;
+    border: outset black;
+    display: inline-flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+#carre1 {
+    height: 351px;
+    width: 351px;
+    background-color: blue;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 436px; left: 400px;
+}
+
+#carre2{
+    height: 176px;
+    width: 176px;
+    background-color: blue;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 523px; left: 608px;
+}
+
+#triangle1{
+    height: 0px;
+    width: 0px;
+    border-right: 180px solid transparent;
+    border-bottom: 180px solid transparent;
+    border-left: 180px solid black;
+    border-image-outset: black;
+    transform: translate(818px,355px);
+    rotate: 45deg;
+    border-top:1px solid transparent;
+}
+
+#triangle2{
+    height: 0px;
+    width: 0px;
+    border-right: 180px solid transparent;
+    border-bottom: 180px solid transparent;
+    border-left: 180px solid black;
+    border-image-outset: black solid transparent;
+    position:absolute;
+    transform: translate(-21px,-265px);
+    rotate: 225deg;
+    border-top:1px solid transparent;
+}
+
+#triangle11{
+    height: 0px;
+    width: 0px;
+    border-right: 174px solid transparent;
+    border-bottom: 170px solid transparent;
+    border-left: 170px solid rgb(0, 225, 255);
+    border-image-outset: rgb(0, 225, 255);
+    position: absolute;
+    transform: translate(-36px,-264px);
+    rotate: 225deg;
+    border-top:1px solid transparent;
+}
+
+#carre22{
+    height: 0px;
+    width: 247px;
+    position: absolute;
+    transform: translate(-54px,354px);
+}
+
+#carre11{
+    height: 0px;
+    width: 243px;
+    position: absolute;
+    transform: translate(-51px,852px);
+}
+
+#trianglep{
+    height: 0px;
+    width: 0px;
+    border-right: 168px solid transparent;
+    border-bottom: 168px solid transparent;
+    border-left: 168px solid rgb(0, 225, 255);
+    border-image-outset: blue;
+    position: absolute;
+    transform: translate(559px,610px);
+    border-top:1px solid transparent;
+    rotate: 45deg;
+}
+
+#rectangle1{
+    height: 170px;
+    background-color: rgb(0, 225, 255);
+    position: absolute;
+    transform: translate(339px,510px);
+    rotate: 45deg;
+}
+
+#rectangle2{
+    height: 170px;
+    background-color: rgb(0, 225, 255);
+    position: absolute;
+    transform: translate(396px,-222px);
+    rotate: 135deg;
+}
+
+#queue1{
+    height: 0px;
+    width: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid rgb(0, 225, 255);
+    border-image-outset: blue;
+    position: absolute;
+    transform: translate(485px,-124px);
+    rotate: 133deg;
+    border-top:1px solid transparent;
+}
+
+#queue2{
+    height: 0px;
+    width: 0;
+    border-image-outset: black;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid rgb(0, 225, 255);
+    border-image-outset: white;
+    position: absolute;
+    transform: translate(701px,-379px);
+    rotate: 136deg;
+    border-top:1px solid transparent;
+}
