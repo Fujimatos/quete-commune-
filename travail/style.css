@@ -1,0 +1,132 @@
+@media only screen and (max-width: 320px) 
+{
+    body {
+    display: none;
+    }
+}
+
+@media only screen and (width=414px) and (height=896px) 
+{ header div { 
+    background-color: red; 
+    }   
+}
+header {
+    display: flex;   
+}
+.elephant1{
+    border-bottom: 143px solid lime;
+    border-left  : 61px solid transparent; 
+    border-right : 3px solid transparent;
+    border-top :100px solid transparent;
+    height : 0;
+    width  : 152px; 
+    position: absolute;
+    top :195px;
+    left : 262px;
+    rotate : 225deg;
+    z-index: 1;    
+}
+.elephant2{
+    height: 400px;
+    width: 250px;
+    rotate: 320deg;
+    background-color: black;
+    position: absolute;
+    left: 231px;
+    top: 187px;
+    rotate: 0deg;
+}
+.elephant3{
+    width  : 0;
+    height : 0;
+    border-top    : 25px solid transparent;
+    border-bottom : 24px solid transparent;
+    border-right  : 72px solid green;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    rotate: 336deg ;
+}
+.elephant4{
+    width  : 0;
+    height : 0;
+    border-top    : 200px solid transparent;
+    border-bottom : 200px solid transparent;
+    border-right  : 100px solid blue;
+    border-left   : 200px solid transparent;
+    position: absolute;
+    left: -69px;
+    top: 188px;
+    rotate: 0deg ;   
+}
+.elephant5{
+    height: 100px;
+    width: 100px;
+    rotate: 45deg;
+    background-color: white;
+    position: absolute;
+    top : 564px;
+    left :  315px;
+}
+.elephant6{
+    position: absolute;
+    top: 225px;
+    left: 547px;   
+    width: 46px;
+    border-bottom: 35px solid #aa56d2;
+    border-left: 36px solid transparent;
+    border-right: 24px solid transparent;
+    rotate :308deg
+}
+.elephant7{
+    position: absolute;
+    top:234px;
+    left: 631px;
+    width: 7px;
+    border-bottom: 25px solid skyblue;
+    border-left: 28px solid transparent;
+    border-right: 5px solid transparent;
+    rotate :231deg
+}
+.elephant8{
+    position: absolute;
+    top: 155px;
+    left: 395px;
+    height: 33px;
+    width: 142px;
+    background-color: brown;
+    rotate:0deg;
+    transform: skew(39deg);
+}
+.elephant9{
+    position: absolute;
+    top: 189px;
+    left: 481px;
+    height: 117px;
+    width: 97px;
+    background-color:gold;
+    rotate:0deg;
+    transform: skew(10deg);   
+}
+.elephant10{
+    height: 1px;
+    width: 360px;
+    rotate: 45deg;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    left : 181px;
+    top: 538px;
+    rotate:45deg;    
+}
+.elephant11{
+    position: absolute;
+    top:162px;
+    left: 518px;
+    width: 17px;
+    border-bottom: 23px solid skyblue;
+    border-left: 0px solid transparent;
+    border-right: 29px solid transparent;
+    rotate :196deg;    
+}
